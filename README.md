@@ -6,5 +6,4 @@
 [Go to Site](www.acmicpc.net)
 ## Source
 📁 [Src](https://github.com/byeongjuPark/study_javas/tree/master/src)  
->📂 [App.java](https://github.com/byeongjuPark/study_javas/blob/master/src/App.java)  
->📂 [SmallThanX.java](https://github.com/byeongjuPark/study_javas/blob/master/src/SmallThanX.java)
+
