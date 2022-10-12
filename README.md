@@ -1,3 +1,3 @@
 # 백준알고리즘 for Java
-## Site
-url : www.acmicpc.net
+## Site   
+[백준알고리즘](www.acmicpc.net)
