@@ -1,6 +1,6 @@
 import java.util.Scanner;
-
-public class Main{
+//refer : https://www.acmicpc.net/problem/2884
+public class AlarmClock{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int h, m;
