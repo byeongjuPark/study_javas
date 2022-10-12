@@ -1,6 +1,6 @@
 import java.util.Scanner;
 //refer : https://www.acmicpc.net/problem/2525
-public class Main {
+public class KOI {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int h, m, time;
