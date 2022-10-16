@@ -16,7 +16,7 @@ public class KOI {
             }
         }
         System.out.println(h + " " + m);
-      
+      sc.close();
 
     }
 }

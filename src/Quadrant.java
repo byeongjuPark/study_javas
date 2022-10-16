@@ -22,5 +22,6 @@ public class Quadrant{
         }else if(x>0 && y<0){
             System.out.print(4);
         }
+        sc.close();
     }
 }
