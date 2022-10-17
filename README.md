@@ -9,5 +9,5 @@
 - :open_file_folder:[입출력과 사칙연산[15/15]](./src/Step/IO_arithmetic_operation/)
 - :open_file_folder:[조건문[7/7]](./src/Step/Conditional/)  
 - :open_file_folder:[반복문[13/13]](./src/Step/Loop/)  
-- :open_file_folder:[1차원 배열[1/6]](./src/Step/OneDimensionalArray/)  
+- :open_file_folder:[1차원 배열[2/6]](./src/Step/OneDimensionalArray/)  
 
