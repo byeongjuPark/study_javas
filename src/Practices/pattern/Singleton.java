@@ -1,7 +1,9 @@
 package Practices.pattern;
 
 public class Singleton {
-    private Singleton(){}
+    private Singleton(){
+        
+    }
     private static Singleton instance;
     public static Singleton getInstance(){
         if(instance == null){
