@@ -41,7 +41,7 @@ public class CreateStream {
         System.out.print("치킨 이름을 입력하세요 :");
         String choice = sc.nextLine();
         Arrays.asList(menu).stream().filter(str -> str.equals(choice)).
-        sc.close();
+        // sc.close();
     }
 
     public static String solution(String[] seoul) {
