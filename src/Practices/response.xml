@@ -1,0 +1,57 @@
+<TsunamiShelter>
+    <head>
+        <totalCount>623</totalCount>
+        <numOfRows>10</numOfRows>
+        <pageNo>1</pageNo>
+        <type>XML</type>
+        <RESULT>
+            <resultCode>INFO-0</resultCode>
+            <resultMsg>정상</resultMsg>
+        </RESULT>
+    </head>
+    <row>
+        <id>696</id>
+        <sido_name>강원도</sido_name>
+        <sigungu_name>삼척시</sigungu_name>
+        <remarks>정라지구</remarks>
+        <shel_nm>정라마을회관뒤공터</shel_nm>
+        <address>강원도 삼척시 정하동 28-1</address>
+        <lon>129.187489</lon>
+        <lat>37.442234</lat>
+        <shel_av>100</shel_av>
+        <lenth>548</lenth>
+        <shel_div_type>공터</shel_div_type>
+        <seismic />
+        <height>76</height>
+    </row>
+    <row>
+        <id>697</id>
+        <sido_name>강원도</sido_name>
+        <sigungu_name>삼척시</sigungu_name>
+        <remarks>정라지구</remarks>
+        <shel_nm>척추동해비</shel_nm>
+        <address>강원도 삼척시 정상동 82-1</address>
+        <lon>129.184482</lon>
+        <lat>37.435591</lat>
+        <shel_av>100</shel_av>
+        <lenth>508</lenth>
+        <shel_div_type>공터</shel_div_type>
+        <seismic />
+        <height>34</height>
+    </row>
+    <row>
+        <id>698</id>
+        <sido_name>강원도</sido_name>
+        <sigungu_name>삼척시</sigungu_name>
+        <remarks>정라지구</remarks>
+        <shel_nm>감로사앞공터</shel_nm>
+        <address>강원도 삼척시 정상동 3-1</address>
+        <lon>129.183813</lon>
+        <lat>37.440605</lat>
+        <shel_av>100</shel_av>
+        <lenth>368</lenth>
+        <shel_div_type>공터</shel_div_type>
+        <seismic />
+        <height>38</height>
+    </row>
+</TsunamiShelter>
