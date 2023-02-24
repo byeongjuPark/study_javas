@@ -26,8 +26,8 @@ public class StackTest {
         stack.push("B");
         stack.push("C");
 
-        for(String str :stack.arrayStack ){
-            System.out.println(str);
-        }
+        stack.pop();
+        stack.pop();
+        stack.pop();
     }
 }
