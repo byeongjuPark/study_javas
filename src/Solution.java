@@ -1,38 +1,27 @@
-import java.util.ArrayList;
-import java.util.List;
-
+import java.util.Arrays;
 
 class Solution {
     public static void main(String[] args) {
-            String[] quiz = {"3 - 4 = -3", "5 + 6 = 11"};
-            solution(quiz);
+        long a = solution(3, 20, 4);
+        System.out.println(a);
+        int[] numbers = {3,4,5,7};
+        Arrays.sort(numbers);
+        System.out.println(numbers.toString());
     }
-    
-    public static String[] solution(String[] quiz) {
-        String[] answer = new String[quiz.length];
-        List<String> resultArr = new ArrayList<>();
-        for(int i=0;i<quiz.length;i++){
-            String[] str = quiz[i].split(" ");
-            System.out.println(str);
-            if(str[1].equals("-")){
-                boolean isTrue = (Integer.parseInt(str[0]) - Integer.parseInt(str[2])) == Integer.parseInt(str[4]);
-                if(isTrue){
-                    resultArr.add("O");
-                }else{
-                    resultArr.add("X");
-                }
-            }else{
-                boolean isTrue = (Integer.parseInt(str[0]) + Integer.parseInt(str[2])) == Integer.parseInt(str[4]);
-                if(isTrue){
-                    resultArr.add("O");
-                }else{
-                    resultArr.add("X");
-                }
-            }
+
+    public static long solution(int price, int money, int count) {
+        long answer = -1;
+        long sum = 0;
+        for(int i = 0 ; i < count ; i++){
+            sum = sum + (price * (i+1));
         }
-        for(int i = 0;i<quiz.length;i++ ){
-            answer[i] = resultArr.get(i);
+        
+        if(money >= sum){
+            answer = 0;
+        }else {
+            answer = sum - money;
         }
+
         return answer;
     }
 }
